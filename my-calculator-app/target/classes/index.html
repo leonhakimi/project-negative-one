@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+</head>
+
+<body>
+	<h1>Add Numbers</h1>
+	<form action="http://localhost:8080/add" method="POST" target="addResult">
+		<input id="addNumber1" type="number" name="number1" step=".01" placeholder="0" />
+		<input id="addNumber2" type="number" name="number2" placeholder="0" />
+		<button id="addButton" type="submit">Add</button>
+	</form>
+
+	<iframe id="addResult" name="addResult" frameborder="0"></iframe>
+	
+	<hr>
+
+	<h1>Subtract Numbers</h1>
+
+	<form action="http://localhost:8080/subtract" method="POST" target="subtractResult">
+		<input id="subtractNumber1" type="number" name="number1" step=".01" placeholder="0" />
+		<input id="subtractNumber2" type="number" name="number2" placeholder="0" />
+		<button id="subtractButton" type="submit">Subtract</button>
+	</form>
+
+	<iframe id="subtractResult" name="subtractResult" frameborder="0"></iframe>
+	
+	<hr>
+	
+	<h1>Multiply Numbers</h1>
+
+	<form action="http://localhost:8080/multiply" method="POST" target="multiplyResult">
+		<input id="multiplyNumber1" type="number" name="number1" step=".01" placeholder="0" />
+		<input id="multiplyNumber2" type="number" name="number2" placeholder="0" />
+		<button id="multiplyButton" type="submit">Multiply</button>
+	</form>
+
+	<iframe id="multiplyResult" name="multiplyResult" frameborder="0"></iframe>
+	
+	<hr>
+	
+	<h1>Divide Numbers</h1>
+
+	<form action="http://localhost:8080/divide" method="POST" target="divideResult">
+		<input id="divideNumber1" type="number" name="number1" step=".01" placeholder="0" />
+		<input id="divideNumber2" type="number" name="number2" placeholder="0" />
+		<button id="divideButton" type="submit">Divide</button>
+	</form>
+
+	<iframe id="divideResult" name="divideResult" frameborder="0"></iframe>
+
+
+</body>
+
+</html>
